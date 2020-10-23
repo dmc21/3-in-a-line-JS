@@ -112,7 +112,7 @@
                 if (turno > 5){
                 for (var i = 0;i < tablero.length;i++){
                     if (tablero[i][0].value == tablero[i][1].value && tablero[i][1].value == tablero[i][2].value){
-                        if (tablero[i][0],value != "")
+                        if (tablero[i][0].value != "")
                             $("#content").append("<h1>Hay GANADOR ("+tablero[i][0].value+")!</h1>");return;
                     }else if (tablero[0][i].value==tablero[1][i].value && tablero[1][i].value==tablero[2][i].value){
                         if (tablero[0][i].value != "")
